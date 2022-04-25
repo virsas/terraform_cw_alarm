@@ -1,3 +1,7 @@
+provider "aws" {
+  region = var.region
+}
+
 resource "aws_cloudwatch_metric_alarm" "alarm" {
   alarm_name          = var.alarm.name
   alarm_actions       = var.sns
