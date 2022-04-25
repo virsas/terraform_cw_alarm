@@ -4,8 +4,8 @@ Terraform module to create cloudwatch log group.
 
 ## Dependencies
 
-SNS <https://github.com/virsas/terraform_sns_topic>
-CW Filter <https://github.com/virsas/terraform_cw_filter>
+- SNS <https://github.com/virsas/terraform_sns_topic>
+- CW Filter <https://github.com/virsas/terraform_cw_filter>
 
 ## Terraform example
 
